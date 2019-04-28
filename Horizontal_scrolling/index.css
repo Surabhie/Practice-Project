@@ -1,0 +1,79 @@
+/*1- the parents dimension(%)
+
+.parent
+{
+background: tomato;
+width:100px;
+
+}
+
+.child
+{
+background: khaki;
+width:50%;
+
+}*/
+
+/*2- Apply em to fonts 
+
+.parent
+{
+background: tomato;
+font-size: 20px;
+width:100px;
+
+}
+
+.child
+{
+background: lime;
+font-size: 2em;
+*/
+
+/*3- Apply rem to fonts 
+:root
+
+{
+font-size: 10px;
+
+}
+
+.parent
+{
+background: tomato;
+font-size: 20px;
+width:100px;
+
+}
+
+.child
+{
+background: lime;
+font-size: 2rem;
+
+}
+*/
+
+/*4-View port units */
+
+.parent
+{
+background: tomato;
+height: 70vh;
+width:50vw;
+
+}
+
+.child
+{
+background: lime;
+height: 50vh;
+width:60vw;
+}
+
+.second-child
+{
+background: khaki;
+height: 2vmax;
+width:60vmax;
+}
